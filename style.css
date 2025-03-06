@@ -1,0 +1,58 @@
+input[type=text]:focus,input[type=Password]:focus{
+    background-color: antiquewhite;
+}
+button{
+    background-color: #1a2c30;
+    border-radius: 10px;
+    color: rgb(245, 254, 255);
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display:ruby-base-container;
+    font-size: 13px;
+    margin: 2px 2px;
+    cursor:pointer
+}
+h2{
+    
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 20px;
+      
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 100vh;*/
+} 
+.f1 {
+    background-color: #ffffff;
+    padding: 100px;
+    padding-top: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*use for shadow box*/
+    text-align: center;
+   
+}
+
+.c1 {
+    margin-bottom: 10px;
+}
+
+.c1 label {
+    /* display: block; */
+    margin-bottom: 5px;
+    font-weight: bold; /* this is use to make text bold*/
+}
+
+.c1 input {
+    /* width: 100%; */
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc; /*use for recangular box boder color*/
+    border-radius: 4px;
+}
